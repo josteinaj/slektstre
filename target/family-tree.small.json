@@ -1,0 +1,183 @@
+{
+
+"people": {
+
+"P2": {
+  "role": "me",
+  "x-position": 0,
+  "tree-layer": 1,
+  "id": "P2",
+  "generation": 0,
+  "name": "Per Sigval /Jacobsen/",
+  "sex": "M",
+  "birth": "22 AUG 1952 (Oslo)",
+  "estimated-birth": 1952
+},
+"P5": {
+  "role": "parent",
+  "x-position": -0.5,
+  "tree-layer": 1,
+  "id": "P5",
+  "generation": "-1",
+  "name": "Sigval /Jacobsen/",
+  "sex": "M",
+  "birth": "6 January 1907 (Norway)",
+  "death": "17 March 1979",
+  "estimated-birth": 1907
+},
+"P21": {
+  "role": "parent",
+  "x-position": -0.75,
+  "tree-layer": 1,
+  "id": "P21",
+  "generation": "-2",
+  "name": "Sigval Nikolai /Jacobsen/",
+  "sex": "M",
+  "birth": "28 JAN 1867 (Kristiania)",
+  "estimated-birth": 1867
+},
+"P22": {
+  "role": "parent",
+  "x-position": -0.25,
+  "tree-layer": 1,
+  "id": "P22",
+  "generation": "-2",
+  "name": "Agathe Backer /Røed/",
+  "sex": "F",
+  "birth": "25 APR 1876 (Botn)",
+  "estimated-birth": 1876
+},
+"P6": {
+  "role": "parent",
+  "x-position": 0.5,
+  "tree-layer": 1,
+  "id": "P6",
+  "generation": "-1",
+  "name": "Marit Johanne /Jacobsen/",
+  "sex": "F",
+  "birth": "29 JUN 1922",
+  "death": "2 SEP 2014",
+  "estimated-birth": 1922
+},
+"P24": {
+  "role": "parent",
+  "x-position": 0.25,
+  "tree-layer": 1,
+  "id": "P24",
+  "generation": "-2",
+  "name": "Jakob Simon Mathias Andersen /Eikefjord/",
+  "sex": "M",
+  "birth": "5 JUL 1880 (Eikefjord)",
+  "death": "19 MAY 1956 (Eidanger Telemark)",
+  "estimated-birth": 1880
+},
+"P25": {
+  "role": "parent",
+  "x-position": 0.75,
+  "tree-layer": 1,
+  "id": "P25",
+  "generation": "-2",
+  "name": "Anne Terese /Grindem/",
+  "sex": "F",
+  "birth": "14 December 1889 (Arendal)",
+  "death": "25 November 1972",
+  "estimated-birth": 1889
+},
+"P1": {
+  "role": "child",
+  "x-position": -0.75,
+  "tree-layer": 1,
+  "id": "P1",
+  "generation": 1,
+  "name": "Jostein /Austvik Jacobsen/",
+  "sex": "M",
+  "birth": "20 MAY 1985 (Oslo)",
+  "parents": "P2 P3",
+  "estimated-birth": 1985
+},
+"P7": {
+  "role": "child",
+  "x-position": -0.25,
+  "tree-layer": 1,
+  "id": "P7",
+  "generation": 1,
+  "name": "Astri /Austvik Jacobsen/",
+  "sex": "F",
+  "birth": "26 NOV 1980 (Oslo)",
+  "parents": "P2 P3",
+  "estimated-birth": 1980
+},
+"P19": {
+  "role": "child",
+  "x-position": -0.375,
+  "tree-layer": 2,
+  "id": "P19",
+  "generation": 2,
+  "name": "Alma /Ellegård-Jacobsen/",
+  "sex": "F",
+  "birth": "29 AUG 2011",
+  "parents": "P18 P7",
+  "estimated-birth": 2011
+},
+"P20": {
+  "role": "child",
+  "x-position": -0.125,
+  "tree-layer": 2,
+  "id": "P20",
+  "generation": 2,
+  "name": "Henry /Ellegård-Jacobsen/",
+  "sex": "M",
+  "birth": "10 AUG 2014",
+  "parents": "P18 P7",
+  "estimated-birth": 2014
+},
+"P8": {
+  "role": "child",
+  "x-position": 0.25,
+  "tree-layer": 1,
+  "id": "P8",
+  "generation": 1,
+  "name": "Ingri /Austvik Jacobsen/",
+  "sex": "F",
+  "birth": "30 JUL 1989 (Oslo)",
+  "parents": "P2 P3",
+  "estimated-birth": 1989
+},
+"P3": {
+  "role": "spouse",
+  "x-position": 0.75,
+  "tree-layer": 1,
+  "id": "P3",
+  "generation": 0,
+  "name": "Randi /Austvik/",
+  "sex": "F",
+  "birth": "26 JUL 1951 (Molde)",
+  "estimated-birth": 1951
+}
+},
+
+"families": {
+
+"P2_P3": {
+  "parents": ["P2", "P3"],
+  "children": ["P1", "P7", "P8"]
+},
+"P18_P7": {
+  "parents": ["P18", "P7"],
+  "children": ["P19", "P20"]
+},
+"P5_P6": {
+  "parents": ["P5", "P6"],
+  "children": ["P2"]
+},
+"P24_P25": {
+  "parents": ["P24", "P25"],
+  "children": ["P6"]
+},
+"P21_P22": {
+  "parents": ["P21", "P22"],
+  "children": ["P5"]
+}
+}
+
+}

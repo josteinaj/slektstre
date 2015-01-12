@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<family-tree>
+
+    <me id="P1">
+        <parent id="P2">
+            <parent id="P3"/>
+            <parent id="P4"/>
+
+        </parent>
+        <parent id="P5">
+            <parent id="P6"/>
+            <parent id="P7"/>
+            <spouse>
+                <spouse id="P8"/>
+            </spouse>
+        </parent>
+        <sibling id="P"/>
+        <child id="C1">
+            <child id="C2"/>
+            <child id="C3"/>
+        </child>
+        <child id="C4">
+            <child id="C5"/>
+            <child id="C6"/>
+        </child>
+        <spouse id="S1">
+            <ancestors/>
+            <descendants/>
+            <spouses/>
+        </spouse>
+        <spouse id="S2">
+            <ancestors/>
+            <descendants/>
+            <spouses/>
+        </spouse>
+    </me>
+
+</family-tree>

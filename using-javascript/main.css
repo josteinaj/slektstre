@@ -1,0 +1,17 @@
+.person {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    position: absolute;
+}
+
+.family {
+    height: 1px;
+    border: 1px solid black;
+    position: absolute;
+}
+
+#canvas {
+    border: 1px solid black;
+    position: absolute;
+}

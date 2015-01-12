@@ -1,0 +1,98 @@
+##Command to get the layout: "dot -Tpng thisfile > thisfile.png"
+
+digraph P2 {
+# page = "8.2677165,11.692913" ;
+ratio = "auto" ;
+mincross = 2.0 ;
+nodesep=0.35
+ordering=out
+edge [dir=none, weight=1];
+node [shape=box];
+label = "Per Sigval /Jacobsen/" ;
+
+"P21" [color=blue, label="Sigval Nikolai /Jacobsen/
+født 28 JAN 1867-
+" ] ;
+"P22" [color=red, label="Agathe Backer /Røed/
+født 25 APR 1876-
+" ] ;
+F6 [shape=diamond, label="", height=0, width=0];
+{rank=same; P21; F6; P22};
+P21 -> F6 [dir=none, weight=10]
+F6 -> P22 [dir=none, weight=10]
+
+F6 -> P5 [dir=none, weight=10]
+"P24" [color=blue, label="Jakob Simon Mathias Andersen /Eikefjord/
+født 5 JUL 1880-
+død 19 MAY 1956-" ] ;
+"P25" [color=red, label="Anne Terese /Grindem/
+født 14 December 1889-
+død 25 November 1972-" ] ;
+F8 [shape=diamond, label="", height=0, width=0];
+{rank=same; P24; F8; P25};
+P24 -> F8 [dir=none, weight=10]
+F8 -> P25 [dir=none, weight=10]
+
+F8 -> P6 [dir=none, weight=10]
+"P5" [color=blue, label="Sigval /Jacobsen/
+født 6 January 1907-
+død 17 March 1979-" ] ;
+"P6" [color=red, label="Marit Johanne /Jacobsen/
+født 29 JUN 1922-
+død 2 SEP 2014-" ] ;
+F4 [shape=diamond, label="", height=0, width=0];
+{rank=same; P5; F4; P6};
+P5 -> F4 [dir=none, weight=10]
+F4 -> P6 [dir=none, weight=10]
+
+F4 -> P2 [dir=none, weight=10]
+"P2" [color=blue, label="Per Sigval /Jacobsen/
+født 22 AUG 1952-
+" ] ;
+"P3" [color=red, label="Randi /Austvik/
+født 26 JUL 1951-
+" ] ;
+F2 [shape=diamond, label="", height=0, width=0];
+{rank=same; P2; F2; P3};
+P2 -> F2 [dir=none, weight=10]
+F2 -> P3 [dir=none, weight=10]
+
+P7_node [shape=circle, label="", height=0.01, width=0.01];
+P1_node [shape=circle, label="", height=0.01, width=0.01];
+P8_node [shape=circle, label="", height=0.01, width=0.01];
+F2_children [shape=circle, label="", height=0.01, width=0.01];
+{rank=same; P7_node -> F2_children -> P1_node -> P8_node [dir=none]};
+F2 -> F2_children [dir=none]
+{rank=same; P7; P1; P8};
+P7_node -> P7 [dir=none, weight=10]
+P1_node -> P1 [dir=none, weight=10]
+P8_node -> P8 [dir=none, weight=10]
+"P1" [color=blue, label="Jostein /Austvik Jacobsen/
+født 20 MAY 1985-
+" ] ;
+"P7" [color=red, label="Astri /Austvik Jacobsen/
+født 26 NOV 1980-
+" ] ;
+F5 [shape=diamond, label="", height=0, width=0];
+{rank=same; F5; P7};
+F5 -> P7 [dir=none, weight=10]
+
+P19_node [shape=circle, label="", height=0.01, width=0.01];
+P20_node [shape=circle, label="", height=0.01, width=0.01];
+F5_children [shape=circle, label="", height=0.01, width=0.01];
+{rank=same; P19_node -> F5_children -> P20_node [dir=none]};
+F5 -> F5_children [dir=none]
+{rank=same; P19; P20};
+P19_node -> P19 [dir=none, weight=10]
+P20_node -> P20 [dir=none, weight=10]
+"P8" [color=red, label="Ingri /Austvik Jacobsen/
+født 30 JUL 1989-
+" ] ;
+"P19" [color=red, label="Alma /Ellegård-Jacobsen/
+født 29 AUG 2011-
+" ] ;
+"P20" [color=blue, label="Henry /Ellegård-Jacobsen/
+født 10 AUG 2014-
+" ] ;
+
+}
